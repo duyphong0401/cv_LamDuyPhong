@@ -1,12 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.3; /* Giảm khoảng cách giữa các dòng */
 }
 
 .container {
     max-width: 800px;
-    margin: 15px auto; /* Giảm margin */
-    padding: 15px;
+    margin: 20px auto;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
@@ -15,11 +14,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px; /* Giảm khoảng cách với phần dưới */
 }
 
 .header img {
-    width: 120px;
+    width: 120px; 
     height: auto;
     border-radius: 50%;
 }
@@ -28,29 +26,30 @@ body {
     flex-grow: 1;
 }
 
+
 .contact-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 5px; /* Giảm khoảng cách */
+    margin-top: 10px;
 }
 
 .contact-info,
 .contact-info-e {
-    width: 48%;
+    width: 48%; 
 }
 
 .section {
-    margin-top: 10px; /* Giảm khoảng cách giữa các mục */
+    margin-top: 5px;
 }
 
 .experience-item {
     display: flex;
     align-items: flex-start;
-    gap: 15px; /* Giảm khoảng cách giữa các mục */
+    gap: 20px; 
 }
 
 .date {
-    min-width: 160px; /* Giảm chiều rộng tối thiểu */
+    min-width: 180px; 
     font-weight: bold;
 }
 
@@ -63,44 +62,46 @@ body {
 }
 
 .job-title {
-    margin-top: 2px; /* Giảm khoảng cách */
+    margin-top: 3px;
     font-style: italic;
 }
 
 .job-description {
-    padding-left: 150px; /* Giảm thụt lề */
-    transform: translateY(-5px); /* Giảm dịch chuyển lên */
+    padding-left: 200px;
+    transform: translateY(-10px); 
 }
-
 .job-description-education {
-    padding-left: 150px; /* Giảm thụt lề */
+    padding-left: 200px;
+    
 }
 
 .section h3 {
     border-bottom: 2px solid #28a745;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
     color: #28a745;
 }
-
 .skill-item {
-    margin-left: 15px;
-    margin-top: 0;
-    margin-bottom: 2px;
-    line-height: 1.1; /* Giảm khoảng cách dòng */
+    margin-left: 20px; 
+    margin-top: 0px; 
+    margin-bottom: 3px; 
+    line-height: 1.2; 
 }
+
+
 
 .sub-list {
     list-style-type: disc;
-    padding-left: 15px;
-    margin-top: 3px;
+    padding-left: 20px;
+    margin-top: 5px;
 }
 
 .table {
     width: 100%;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .section-title {
+    /* font-size: 20px; */
     font-weight: bold;
     color: #1b5e20;
     display: flex;
@@ -110,33 +111,34 @@ body {
 .section-title img {
     width: 24px;
     height: 24px;
-    margin-right: 5px; /* Giảm khoảng cách icon */
+    margin-right: 8px;
 }
 
 .project-table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 5px;
+    margin-top: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px; /* Giảm khoảng cách cuối bảng */
+    margin-bottom: 30px;
 }
 
 .project-table th, .project-table td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 10px;
     text-align: left;
 }
 
 .project-table th {
     background-color: #f4f4f4;
-    font-size: 14px; /* Giảm kích thước chữ */
+    font-size: 16px;
 }
 
 .project-table ul {
     margin: 0;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .project-table tr:nth-child(even) {
     background-color: #fafafa;
 }
+
