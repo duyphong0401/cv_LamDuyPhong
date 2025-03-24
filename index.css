@@ -71,13 +71,8 @@ body {
     transform: translateY(-10px); 
 }
 .job-description-education {
-    padding-left: 50px; 
-    word-wrap: break-word; 
+    padding-left: 200px;
     
-}
-
-.job-description-education li {
-    line-height: 1.3; 
 }
 
 .section h3 {
